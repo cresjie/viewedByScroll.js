@@ -30,6 +30,7 @@ Documentation
 **settings [object]**
 configures  settings
 see .settings()
+
 **callback [function]**
 triggers callback when the element is viewed in the viewport.
 Pass an element and its index
