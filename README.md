@@ -28,14 +28,14 @@ Documentation
 ###.viewedByScroll(settings,callback);
 ***
 **settings [object]**
-configures  settings
-see .settings()
+configures  settings.
+See .settings()
 
 **callback [function]**
 triggers callback when the element is viewed in the viewport.
 Pass an element and its index
 
-###.setting(object)
+###.settings(object)
 configures settings
 ```
 	top distance from the viewport
