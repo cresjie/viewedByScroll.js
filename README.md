@@ -25,15 +25,19 @@ $(document).ready(function(){
 ```
 Documentation
 ============
-###viewedByScroll(settings,callback);
+###.viewedByScroll(settings,callback);
 ***
 **settings [object]**
-configures default settings
+configures  settings
+see .settings()
+**callback [function]**
+triggers callback when the element is viewed in the viewport.
+Pass an element and its index
+
+###.setting(object)
+configures settings
 ```
 	top distance from the viewport
 	indentTop: 0 //default
 	
 ```
-**callback [function]**
-triggers callback when the element is viewed in the viewport.
-Pass an element and its index
